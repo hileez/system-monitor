@@ -38,7 +38,7 @@ system-monitor:.
 
 ```bash
 # 克隆仓库
-git clone https://github.com/supercoderlee/system-monitor
+git clone https://github.com/supercoderlee/system-monitor.git
 # 进入目录
 cd system-monitor
 # 安装依赖

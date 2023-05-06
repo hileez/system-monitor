@@ -38,7 +38,7 @@ To clone and run this repository you'll need [Git](https://git-scm.com) and [Nod
 
 ```bash
 # Clone this repository
-git clone https://github.com/supercoderlee/system-monitor
+git clone https://github.com/supercoderlee/system-monitor.git
 # Go into the repository
 cd system-monitor
 # Install dependencies
