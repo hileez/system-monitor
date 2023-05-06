@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
+    <link href="./styles.css" rel="stylesheet">
+    <script src="echarts.min.js"></script>
+    <title>系统资源监视器 - Power by Node-PyRunner</title>
+  </head>
+  <body>
+    <!-- 为 ECharts 准备一个定义了宽高的 DOM -->
+    <div id="cpu-percent-chart" style="width: 100%;height:260px;"></div>
+    <div id="memory-percent-chart" style="width: 100%;height:260px;"></div>
+    <div id="memory-total-chart" style="width: 100%;height:120px;"></div>
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+  </body>
+</html>

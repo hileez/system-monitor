@@ -1,0 +1,6 @@
+node_modules
+package-lock.json
+*.rar
+*.zip
+pyscript\venv
+pyscript\__pycache__

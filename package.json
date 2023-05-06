@@ -1,0 +1,26 @@
+{
+  "name": "system-monitor",
+  "version": "1.0.0",
+  "description": "power by node-pyrunner",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "Node-PyRunner",
+    "PyRunner",
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "Zhen",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^23.1.4"
+  },
+  "dependencies": {
+    "node-pyrunner": "^1.0.5"
+  }
+}
