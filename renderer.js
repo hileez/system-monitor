@@ -208,7 +208,7 @@ window.addEventListener('resize', function () {
 const pyrunner = require('node-pyrunner')
 pyrunner.config['module_search_paths'].push('./pyscript');
 pyrunner.init();
-let appModule = pyrunner.loadModule('app');
+let appModule = pyrunner.import('app');
 appModule.callSync('start', []);
 
 /* 更新CPU */

@@ -1,6 +1,6 @@
 # system-monitor
 
-Language: [简体中文](https://github.com/supercoderlee/system-monitor/blob/main/docs/readme/zh-cn.md) | English
+Language: [Chinese](https://github.com/supercoderlee/system-monitor/blob/main/docs/readme/zh-cn.md) | English
 
 This is an application based on Electron that creates and uses node-pyrunner to execute Python, achieving monitoring of system resource usage such as CPU and memory. The Python section mainly uses a third-party library, psutil, to obtain hardware usage information such as system CPU and memory, and ultimately presents data in Electron through echarts.
 
