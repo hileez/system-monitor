@@ -4,9 +4,9 @@ Language: 简体中文 | [English](https://github.com/supercoderlee/system-monit
 
 这是一个基于Electron创建并使用node-pyrunner执行python的应用，实现了CPU、内存等系统资源使用的监视。Python部分主要用第三方库psutil获取系统CPU和内存等硬件使用情况，最终在Electron中通过echarts呈现数据。
 
-![img](https://img-blog.csdnimg.cn/4f6958dd5afa422cb18979fea4f892d0.gif#pic_center)
+![img](img/ui-light.gif)
 
-![img](https://img-blog.csdnimg.cn/0f45dc4173a84a48ac3adc85e6b3d89b.gif#pic_center)
+![img](img/ui-dark.gif)
 
 **项目目录**
 
