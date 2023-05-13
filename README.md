@@ -8,6 +8,10 @@ Language: 简体中文 | [English](https://github.com/supercoderlee/system-monit
 
 ![img](img/ui-dark.gif)
 
+![img](https://img-blog.csdnimg.cn/4f6958dd5afa422cb18979fea4f892d0.gif)
+
+![img](https://img-blog.csdnimg.cn/0f45dc4173a84a48ac3adc85e6b3d89b.gif)
+
 **项目目录**
 
 ~~~bash
