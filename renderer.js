@@ -224,7 +224,7 @@ UpdataCPU = (jsonStr) => {
 }
 
 /* 更新内存 */
-UpdataMenory = (jsonStr) => {
+UpdateMenory = (jsonStr) => {
     let obj = JSON.parse(jsonStr);
     // 内存使用率
     memoryPercentOption['yAxis']['name'] = `使用率 ${obj.menory_percent}% `;

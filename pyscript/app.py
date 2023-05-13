@@ -53,7 +53,7 @@ def menory_monitor():
         time.sleep(1)
         data = menory_info()
         j_str = json.dumps(data)
-        nodepyrunner.callJs(target='UpdataMenory', args=[j_str])    
+        nodepyrunner.callJs(target='UpdateMenory', args=[j_str])    
 
 def start():
     t_cpu = threading.Thread(target=cpu_monitor, args=())
