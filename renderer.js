@@ -212,7 +212,7 @@ let appModule = pyrunner.import('app');
 appModule.callSync('start', []);
 
 /* 更新CPU */
-UpdataCPU = (jsonStr) => {
+UpdateCPU = (jsonStr) => {
     let obj = JSON.parse(jsonStr);
     cpuPercentOption['title']['text'] = `CPU ${obj.cpu_name}`; // 更新标题
     cpuPercentOption['yAxis']['name'] = `使用率 ${obj.cpu_avg}% `; // 更新Y轴名称

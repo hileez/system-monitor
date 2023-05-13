@@ -45,7 +45,7 @@ def cpu_monitor():
         time.sleep(1)
         data = cpu_info()
         j_str = json.dumps(data)
-        nodepyrunner.callJs(target='UpdataCPU', args=[j_str])
+        nodepyrunner.callJs(target='UpdateCPU', args=[j_str])
 
 # 内存监视线程
 def menory_monitor():
